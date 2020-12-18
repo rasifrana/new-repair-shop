@@ -1,0 +1,81 @@
+.carousel-item {
+   
+    height: 100vh;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 90%;
+}
+
+.carousel-caption {
+    color: #000;
+    width: 30%;
+    
+    left: 10% !important;
+    top: 20%;
+}
+
+.service-img {
+    transform: scale(1.1);
+    height: 300px !important;
+    overflow: hidden;
+   
+}
+
+.service-img img {
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s all ease-in-out;
+}
+
+.service-img img:hover {
+    transform: scale(1.2);
+}
+.box-size {
+    box-sizing: border-box;
+}
+
+/* Changr light background color */
+
+.bg-light {
+    background-color: rgb(233, 233, 233) !important;
+}
+
+.liner {
+    display: inline-block;
+    width: 4rem;
+    height: 3px;
+}
+
+.service-wrap i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.help-step {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.help-img-container img{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+.help-para {
+    width: 50%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(51,51,51,0.1);
+}
+
+.help-bg-img {
+    background: transparent url(https://wporganic.com/theme/repair-shop/wp-content/uploads/2017/07/Screen-Shot-2017-07-31-at-7.50.31-PM.png) center center/cover no-repeat scroll;
+}
+
+.testimonial {
+    padding: 4rem 0;
+    background: linear-gradient(rgba(150, 150, 150, 0.8), rgba(231, 231, 231, 0.80)), transparent url(https://wporganic.com/theme/repair-shop/wp-admin/admin-ajax.php?action=kc_get_thumbn&type=filter_url&id=%2Fwp-content%2Fuploads%2F2017%2F07%2Ftestimonial-bg.jpg) center center/cover no-repeat fixed;
+}
