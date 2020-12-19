@@ -17,7 +17,7 @@
 }
 
 .service-img {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     height: 300px !important;
     overflow: hidden;
    
@@ -77,5 +77,99 @@
 
 .testimonial {
     padding: 4rem 0;
-    background: linear-gradient(rgba(150, 150, 150, 0.8), rgba(231, 231, 231, 0.80)), transparent url(https://wporganic.com/theme/repair-shop/wp-admin/admin-ajax.php?action=kc_get_thumbn&type=filter_url&id=%2Fwp-content%2Fuploads%2F2017%2F07%2Ftestimonial-bg.jpg) center center/cover no-repeat fixed;
+    background: linear-gradient(rgba(231, 231, 231, 0.80), rgba(231, 231, 231, 0.80)), transparent url(https://wporganic.com/theme/repair-shop/wp-admin/admin-ajax.php?action=kc_get_thumbn&type=filter_url&id=%2Fwp-content%2Fuploads%2F2017%2F07%2Ftestimonial-bg.jpg) center center/cover no-repeat fixed;
+}
+
+.testimonial-content{
+    position: relative;
+}
+.pointer{
+    
+    width: 1.4rem;
+    height: 1.4rem;
+    background-color: #fff;
+    position: absolute;
+    bottom: -0.5rem;
+    transform: rotate(145deg);
+}
+
+.profile .profile-img {
+    width: 50px;
+    height: auto;
+}
+
+/* Main Services Page Styling */
+.main-services {
+    height: 400px;
+    background: url(./img/service-bg-main.jpg) center center/cover no-repeat;
+}
+
+.price-section {
+    height: 400px;
+    background: url(./img/price-section-bg.jpg) center center/cover no-repeat;
+}
+
+.currency-icon{
+    font-size: 0.8rem;
+    vertical-align: top;
+}
+
+.value {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3.6rem;
+    font-weight: 900;
+    line-height: 0.8;
+    /* color: #FFF; */
+}
+
+.monthly {
+    padding-bottom: 1rem;
+}
+
+.price-description {
+    line-height: 2.8;
+    opacity: 0.8;
+}
+
+.price-header {
+    background-color: #b8d77b;
+    font-weight: 600;
+}
+
+.price-content {
+    background-color: #a2c86f;
+}
+
+.price-features {
+    border: 1px solid #d8d6d6;
+}
+
+.feature-item {
+    border-bottom: 1px solid #d8d6d6;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.text-dim {
+    color: #d8d6d6;
+}
+
+.btn-book {
+    text-decoration: none !important;
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-book:hover {
+    color: #fff;
+}
+
+.btn-green {
+    color: #a2c86f;
+    border: 1px solid #a2c86f;
+}
+.btn-green:hover {
+    background-color: #a2c86f;
 }
