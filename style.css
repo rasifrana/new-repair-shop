@@ -21,6 +21,22 @@ body {
     top: 20%;
 }
 
+.carousel-caption h5 {
+    font-size: 5rem !important;
+    font-weight: 600;
+}
+
+.carousel-caption p {
+    padding: 1.3rem 0;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: rgb(78, 76, 76);
+}
+
+.logo-x {
+    font-size: 2.5rem;
+    color:violet;
+}
 .service-img {
     /* transform: scale(1.1); */
     height: 300px !important;
@@ -271,4 +287,57 @@ body {
     font-size: 1.5rem;
     font-style: italic;
     color: grey;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        width: 50% !important;
+       display: block !important;
+    }
+
+    .carousel-caption h5{
+        font-size: 2rem !important;
+     }
+     .carousel-caption p{
+        font-size: 1rem !important;
+     }
+
+     .service-img {
+         padding: 0 !important;
+     }
+
+     .main-services, .price-section {
+         height: auto;
+     }
+
+     .service-content, 
+     .price-content {
+         width: 70% !important;
+         margin: auto;
+         padding: 1.5rem 0;
+     }
+
+     .contact-icon i {
+       margin-top: 1rem;
+        padding: 1.5rem;
+    
+    }
+
+    .highlight {
+        font-size: 1rem;
+    }
+    
+    .big-contact-number {
+        font-size: 2.2rem;
+    
+    }
+    
+    .sub-highlight {
+        font-size: 1rem;
+    
+    }
+
 }
