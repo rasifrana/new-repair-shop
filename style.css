@@ -1,3 +1,8 @@
+
+body {
+    font-family: 'Work Sans',sans-serif !important;
+}
+
 .carousel-item {
    
     height: 100vh;
@@ -132,13 +137,41 @@
 }
 
 .price-header {
-    background-color: #b8d77b;
+    
     font-weight: 600;
 }
 
-.price-content {
+/* green */
+.price-header-green {
+    background-color: #b8d77b;
+}
+.price-content-green {
     background-color: #a2c86f;
 }
+
+/* pink */
+.price-header-pink {
+    background-color: #d67acd;
+}
+.price-content-pink {
+    background-color: #c86fbf;
+}
+
+/* cyan */
+.price-header-cyan {
+    background-color: #7ac8d6;
+}
+.price-content-cyan {
+    background-color: #6fbac8;
+}
+
+/* purple */
+.price-header-purple {
+    background-color: #7a89d6;
+}
+.price-content-purple {
+    background-color: #6f7ec7;
+} 
 
 .price-features {
     border: 1px solid #d8d6d6;
@@ -172,4 +205,70 @@
 }
 .btn-green:hover {
     background-color: #a2c86f;
+}
+
+/* pink button */
+.btn-pink {
+    color:#c86fbf;
+    border: 1px solid #c86fbf;
+}
+.btn-pink:hover {
+    background-color:#c86fbf;
+}
+
+/* cyan button  */
+.btn-cyan {
+    color:#6fbac8;
+    border: 1px solid #6fbac8;
+}
+.btn-cyan:hover {
+    background-color:#6fbac8;
+}
+
+/* purple button */
+.btn-purple {
+    color:#6f7ec7;
+    border: 1px solid #6f7ec7;
+}
+.btn-purple:hover {
+    background-color: #6f7ec7;
+}
+
+/* Contact Us Page Styling */
+
+.contact-section {
+    height: 400px;
+  background:linear-gradient(0deg, rgba(10, 10, 10, 0.3), rgba(17, 17, 17, 0.3)), url('./img/contact-section-bg.jpg');
+  background-size:cover;
+}
+
+.contact-icon i {
+    /* width: 3rem;
+    height: 3rem; */
+    padding: 2.5rem;
+   /* border: 1px solid  #6f7ec7; */
+    border-radius: 50%;
+    font-size: 1.4rem;
+}
+
+.call-us {
+    background: linear-gradient(rgba(231,231,231,.8),rgba(231,231,231,.8)),transparent url('./img/call-bg.jpg') center center/cover no-repeat scroll;
+    padding-top: 40px;
+}
+
+.highlight {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+}
+
+.big-contact-number {
+    font-size: 5rem;
+    font-weight:600;
+    font-style: italic;
+}
+
+.sub-highlight {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: grey;
 }
