@@ -1,10 +1,9 @@
-
 body {
-    font-family: 'Work Sans',sans-serif !important;
+    font-family: 'Work Sans', sans-serif !important;
 }
 
 .carousel-item {
-   
+
     height: 100vh;
 }
 
@@ -16,7 +15,7 @@ body {
 .carousel-caption {
     color: #000;
     width: 30%;
-    
+
     left: 10% !important;
     top: 20%;
 }
@@ -35,7 +34,7 @@ body {
 
 .logo-x {
     font-size: 2.5rem;
-    color:violet;
+    color: violet;
 }
 
 .who-img-container img {
@@ -43,11 +42,12 @@ body {
     height: 100% !important;
     object-fit: cover !important;
 }
+
 .service-img {
     /* transform: scale(1.1); */
     height: 300px !important;
     overflow: hidden;
-   
+
 }
 
 .service-img img {
@@ -60,6 +60,7 @@ body {
 .service-img img:hover {
     transform: scale(1.2);
 }
+
 .box-size {
     box-sizing: border-box;
 }
@@ -85,7 +86,8 @@ body {
     font-size: 2rem;
     font-weight: 600;
 }
-.help-img-container img{
+
+.help-img-container img {
     width: 100%;
     height: 650px;
     object-fit: cover;
@@ -96,7 +98,7 @@ body {
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 2rem;
-    border-bottom: 1px solid rgba(51,51,51,0.1);
+    border-bottom: 1px solid rgba(51, 51, 51, 0.1);
 }
 
 .help-bg-img {
@@ -108,11 +110,12 @@ body {
     background: linear-gradient(rgba(231, 231, 231, 0.80), rgba(231, 231, 231, 0.80)), transparent url(https://wporganic.com/theme/repair-shop/wp-admin/admin-ajax.php?action=kc_get_thumbn&type=filter_url&id=%2Fwp-content%2Fuploads%2F2017%2F07%2Ftestimonial-bg.jpg) center center/cover no-repeat fixed;
 }
 
-.testimonial-content{
+.testimonial-content {
     position: relative;
 }
-.pointer{
-    
+
+.pointer {
+
     width: 1.4rem;
     height: 1.4rem;
     background-color: #fff;
@@ -137,7 +140,7 @@ body {
     background: url(./img/price-section-bg.jpg) center center/cover no-repeat;
 }
 
-.currency-icon{
+.currency-icon {
     font-size: 0.8rem;
     vertical-align: top;
 }
@@ -160,7 +163,7 @@ body {
 }
 
 .price-header {
-    
+
     font-weight: 600;
 }
 
@@ -168,6 +171,7 @@ body {
 .price-header-green {
     background-color: #b8d77b;
 }
+
 .price-content-green {
     background-color: #a2c86f;
 }
@@ -176,6 +180,7 @@ body {
 .price-header-pink {
     background-color: #d67acd;
 }
+
 .price-content-pink {
     background-color: #c86fbf;
 }
@@ -184,6 +189,7 @@ body {
 .price-header-cyan {
     background-color: #7ac8d6;
 }
+
 .price-content-cyan {
     background-color: #6fbac8;
 }
@@ -192,9 +198,10 @@ body {
 .price-header-purple {
     background-color: #7a89d6;
 }
+
 .price-content-purple {
     background-color: #6f7ec7;
-} 
+}
 
 .price-features {
     border: 1px solid #d8d6d6;
@@ -226,33 +233,37 @@ body {
     color: #a2c86f;
     border: 1px solid #a2c86f;
 }
+
 .btn-green:hover {
     background-color: #a2c86f;
 }
 
 /* pink button */
 .btn-pink {
-    color:#c86fbf;
+    color: #c86fbf;
     border: 1px solid #c86fbf;
 }
+
 .btn-pink:hover {
-    background-color:#c86fbf;
+    background-color: #c86fbf;
 }
 
 /* cyan button  */
 .btn-cyan {
-    color:#6fbac8;
+    color: #6fbac8;
     border: 1px solid #6fbac8;
 }
+
 .btn-cyan:hover {
-    background-color:#6fbac8;
+    background-color: #6fbac8;
 }
 
 /* purple button */
 .btn-purple {
-    color:#6f7ec7;
+    color: #6f7ec7;
     border: 1px solid #6f7ec7;
 }
+
 .btn-purple:hover {
     background-color: #6f7ec7;
 }
@@ -261,21 +272,21 @@ body {
 
 .contact-section {
     height: 400px;
-  background:linear-gradient(0deg, rgba(10, 10, 10, 0.3), rgba(17, 17, 17, 0.3)), url('./img/contact-section-bg.jpg');
-  background-size:cover;
+    background: linear-gradient(0deg, rgba(10, 10, 10, 0.3), rgba(17, 17, 17, 0.3)), url('./img/contact-section-bg.jpg');
+    background-size: cover;
 }
 
 .contact-icon i {
     /* width: 3rem;
     height: 3rem; */
     padding: 2.5rem;
-   /* border: 1px solid  #6f7ec7; */
+    /* border: 1px solid  #6f7ec7; */
     border-radius: 50%;
     font-size: 1.4rem;
 }
 
 .call-us {
-    background: linear-gradient(rgba(231,231,231,.8),rgba(231,231,231,.8)),transparent url('./img/call-bg.jpg') center center/cover no-repeat scroll;
+    background: linear-gradient(rgba(231, 231, 231, .8), rgba(231, 231, 231, .8)), transparent url('./img/call-bg.jpg') center center/cover no-repeat scroll;
     padding-top: 40px;
 }
 
@@ -286,7 +297,7 @@ body {
 
 .big-contact-number {
     font-size: 5rem;
-    font-weight:600;
+    font-weight: 600;
     font-style: italic;
 }
 
@@ -299,52 +310,55 @@ body {
 /* Media Queries */
 
 @media screen and (max-width: 767px) {
+
     /* Hide captions */
     .carousel-caption {
         width: 50% !important;
-       display: block !important;
+        display: block !important;
     }
 
-    .carousel-caption h5{
+    .carousel-caption h5 {
         font-size: 2rem !important;
-     }
-     .carousel-caption p{
+    }
+
+    .carousel-caption p {
         font-size: 1rem !important;
-     }
+    }
 
-     .service-img {
-         padding: 0 !important;
-     }
+    .service-img {
+        padding: 0 !important;
+    }
 
-     .main-services, .price-section {
-         height: auto;
-     }
+    .main-services,
+    .price-section {
+        height: auto;
+    }
 
-     .service-content, 
-     .price-content {
-         width: 70% !important;
-         margin: auto;
-         padding: 1.5rem 0;
-     }
+    .service-content,
+    .price-content {
+        width: 70% !important;
+        margin: auto;
+        padding: 1.5rem 0;
+    }
 
-     .contact-icon i {
-       margin-top: 1rem;
+    .contact-icon i {
+        margin-top: 1rem;
         padding: 1.5rem;
-    
+
     }
 
     .highlight {
         font-size: 1rem;
     }
-    
+
     .big-contact-number {
         font-size: 2.2rem;
-    
+
     }
-    
+
     .sub-highlight {
         font-size: 1rem;
-    
+
     }
 
 }
